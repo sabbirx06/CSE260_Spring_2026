@@ -1,0 +1,182 @@
+A - green
+B - blue
+C - Yellow
+D - Orange
+E - Purple + WHITE +  BROWN
+
+
+
+AB - RED
+AC - ORANGE
+AD - GREEN
+BC - YELLOW
+BD - BLACK
+CD - YELLOW
+
+
+
+
+ABC - GREEN
+ABD - YELLOW
+ABE - BLACK
+ACE - BLUE
+ACD - RED
+ADE - BLACK
+BCD - BLUE
+BCE - GREEN
+BDE - WHITE
+CDE - BLACK
+
+
+
+
+7408 - 01
+--------------------
+01- A (green)
+02- B (blue)
+03- AB (RED)
+04- A (green)
+05- C (yellow)
+06- AC (ORANGE)
+07- GND
+08- AD (GREEN)
+09- D (orange)
+10- A (green)
+11- BC (YELLOW)
+12- B (blue)
+13- C (Yellow)
+14- VCC
+
+
+
+7408 - 02
+--------------------
+01- B (blue)
+02- D (orange)
+03- BD (BLACK)
+04- C (yellow)
+05- D (orange)
+06- CD (YELLOW)
+07- GND
+08- ABC (GREEN)
+09- AB (RED)
+10- C (yellow)
+11- ABD (YELLOW)
+12- D (orange)
+13- AB (RED)
+14- VCC
+
+
+
+7408 - 03
+--------------------
+01- AB (RED)
+02- E (Purple)
+03- ABE (BLACK)
+04- AC (ORANGE)
+05- E (purple)
+06- ACE (BLUE)
+07- GND
+08- ACD (RED)
+09- D (orange)
+10- AC (ORANGE)
+11- ADE (BLACK)
+12- AD (GREEN)
+13- E (white)
+14- VCC
+
+
+
+7408 - 04
+--------------------
+01- BC (YELLOW)
+02- D (orange)
+03- BCD (BLUE)
+04- BC (YELLOW)
+05- E (purple)
+06- BCE (GREEN)
+07- GND 
+08- BDE (WHITE)
+09- E (white)
+10- BD (BLACK)
+11- BLANK
+12- BLANK
+13- BLANK
+14- VCC
+
+
+
+7408 - 05
+--------------------
+01- CD (YELLOW)
+02- E (brown)
+03- CDE (BLACK)
+04- BLANK
+05- BLANK
+06- BLANK
+07- GND
+08- BLANK
+09- BLANK
+10- BLANK
+11- BLANK
+12- BLANK
+13- BLANK
+14- VCC
+
+
+
+7432 - 01
+--------------------
+01- ABC (GREEN)
+02- ABD (YELLOW)
+03- (ABC + ABD) (BLUE)
+04- (ABC + ABD) (BLUE)
+05- ABE (BLACK)
+06- (ABC + ABD + ABE) (BLUE)
+07- GND
+08- (ABC + ABD + ABE + ACD) (BLUE) 
+09- (ABC + ABD + ABE) (BLUE)
+10- ACD (RED) 
+11- (ABC + ABD + ABE + ACD + BCD) (YELLOW)
+12- BCD (BLUE)
+13- (ABC + ABD + ABE + ACD) (BLUE) 
+14- VCC
+
+
+
+7432 - 02
+--------------------
+01- (ABC + ABD + ABE + ACD + BCD) (YELLOW)
+02- ADE (BLACK)
+03- (ABC + ABD + ABE + ACD + BCD + ADE) (YELLOW)
+04- (ABC + ABD + ABE + ACD + BCD + ADE) (YELLOW)
+05- ACE (BLUE)
+06- (ABC + ABD + ABE + ACD + BCD + ADE + ACE) (YELLOW)
+07- GND
+08- (ABC + ABD + ABE + ACD + BCD + ADE + ACE + BCE) (YELLOW)
+09- (ABC + ABD + ABE + ACD + BCD + ADE + ACE) (YELLOW)
+10- BCE (GREEN)
+11- (ABC + ABD + ABE + ACD + BCD + ADE + ACE + BCE + BDE) (YELLOW)
+12- BDE (WHITE)
+13- (ABC + ABD + ABE + ACD + BCD + ADE + ACE + BCE) (YELLOW)
+14- VCC
+
+
+
+7432 - 03
+--------------------
+01- (ABC + ABD + ABE + ACD + BCD + ADE + ACE + BCE + BDE) (YELLOW)
+02- CDE (BLACK)
+03- (ABC + ABD + ABE + ACD + BCD + ADE + ACE + BCE + BDE + CDE) - F (final output) (RED)
+04- BLANK
+05- BLANK
+06- BLANK
+07- GND
+08- BLANK
+09- BLANK
+10- BLANK
+11- BLANK
+12- BLANK
+13- BLANK
+14- VCC
+
